@@ -45,21 +45,33 @@ InsightFlow empowers developers, analysts, and even individuals to take control 
 
 ## 🧩 Project Structure
 
-InsightFlow/ ├── data/                  # Sample datasets or user-uploaded files ├── models/                # Trained or serialized ML models ├── reports/               # Generated reports (PDF/CSV) ├── src/ │   ├── main.py            # Entry point │   ├── cleaner.py         # Data cleaning functions │   ├── detector.py        # Anomaly detection logic │   ├── forecaster.py      # ML-based expense prediction │   ├── categorizer.py     # Rule-based or AI categorization │   └── reporter.py        # PDF/CSV report generation ├── dashboard/             # (Planned) UI components ├── requirements.txt └── README.md
+InsightFlow/
+├── data/               # 💾 Sample datasets or user-uploaded files
+├── models/             # 🤖 Trained or serialized ML models
+├── reports/            # 📄 Generated reports (PDF/CSV)
+├── src/                # 🧠 Core logic and AI modules
+│   ├── main.py         # 🔁 Main pipeline and class interface
+│   ├── cleaner.py      # 🧼 Data cleaning and formatting
+│   ├── detector.py     # 🚨 Anomaly detection (Isolation Forest, Z-Score)
+│   ├── forecaster.py   # 📈 Expense forecasting (Linear Regression, Prophet)
+│   ├── categorizer.py  # 🏷️ Rule-based or AI-powered categorization
+│   └── reporter.py     # 🖨️ PDF/CSV report generation
+├── dashboard/          # 🌐 (Planned) UI components (Streamlit / Flask)
+├── requirements.txt    # 📦 Python dependencies
+└── README.md           # 📘 Project documentation
 
 ---
 
 ## 🧪 Example Usage
 
-```python
 from src.main import InsightFlow
 
 analyzer = InsightFlow("data/july_transactions.csv")
-analyzer.clean()
-analyzer.categorize()
-analyzer.detect_anomalies()
-analyzer.forecast()
-analyzer.generate_report("reports/july_summary.pdf")
+analyzer.clean()                       # Clean and format raw data
+analyzer.categorize()                 # Auto-tag each transaction
+analyzer.detect_anomalies()          # Find unusual financial patterns
+analyzer.forecast()                  # Predict future spending trends
+analyzer.generate_report("reports/july_summary.pdf")  # Export report
 
 
 ---
