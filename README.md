@@ -76,7 +76,7 @@ analyzer.generate_report("reports/july_summary.pdf")  # Export report
 
 ---
 
-📊 Sample Output (Planned)
+## 📊 Sample Output (Planned)
 
 🧾 PDF Summary: Daily/weekly spending breakdown
 
@@ -90,7 +90,7 @@ analyzer.generate_report("reports/july_summary.pdf")  # Export report
 
 ---
 
-🌐 Roadmap
+## 🌐 Roadmap
 
 [x] Transaction cleaning engine
 
@@ -110,7 +110,7 @@ analyzer.generate_report("reports/july_summary.pdf")  # Export report
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Ayman Bouaziz
 AI & Software Engineering Student – Faculty of Science and Technology Al Hoceima
@@ -123,7 +123,7 @@ AI & Software Engineering Student – Faculty of Science and Technology Al Hocei
 
 ---
 
-📜 License
+## 📜 License
 
 MIT License — For research, educational and personal use.
 © 2025 Ayman Bouaziz
@@ -131,6 +131,6 @@ MIT License — For research, educational and personal use.
 
 ---
 
-🧠 Final Thought
+## 🧠 Final Thought
 
 > InsightFlow is not just a tool — it's your personal AI financial advisor, built line by line with passion and precision.
