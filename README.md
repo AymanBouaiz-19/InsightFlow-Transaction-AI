@@ -63,7 +63,7 @@ InsightFlow/
 ---
 
 ## 🧪 Example Usage
-
+```
 from src.main import InsightFlow
 
 analyzer = InsightFlow("data/july_transactions.csv")
@@ -72,7 +72,7 @@ analyzer.categorize()                 # Auto-tag each transaction
 analyzer.detect_anomalies()          # Find unusual financial patterns
 analyzer.forecast()                  # Predict future spending trends
 analyzer.generate_report("reports/july_summary.pdf")  # Export report
-
+```
 
 ---
 
